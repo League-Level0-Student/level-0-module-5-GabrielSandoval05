@@ -32,7 +32,31 @@ public class forLoopGauntlet {
 			System.out.println(7*e);
 		}
 		for(int f = 0; f<15; f++) {
-			System.out.println("In" +( 2005+f)+" I was " +f);
+			System.out.println("In " +( 2005+f)+" I was " +f);
+		}
+		//nested for loop- for loop inside of a for loop
+		for (int y= 0; y<5; y++) {
+			for(int z=0; z<5; z++) {
+				System.out.print(y+z + " ");
+			}
+		}
+		for(int j=0; j<7; j+=3) {
+		for(int g = 1; g<4; g++) {
+			System.out.print(g+j);
+		}
+		System.out.println();
+		}
+		for(int l=0; l<99; l+=10) {
+		for(int h = 1; h<11; h++) {
+			System.out.print(h+l+ " " );
+		}
+		System.out.println();
+		}
+		for(int n=0;n<7;n++) {
+		for(int m= 0;m<n;m++) {
+			System.out.print("*");
+		}
+		System.out.println();
 		}
 		
 	}
