@@ -1,3 +1,4 @@
+package _02_fibonacci;
 
 public class Fibbonacci {
 	public static void main(String[] args) {
