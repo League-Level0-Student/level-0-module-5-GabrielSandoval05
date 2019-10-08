@@ -11,6 +11,8 @@ public class Fibbonacci {
 		first = second;
 		second = third;
 		System.out.println(second);
+		
+	
 		}
 	}
 }
