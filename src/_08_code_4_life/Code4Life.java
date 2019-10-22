@@ -27,8 +27,10 @@ if(hours<=2){
 
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja 
+//int blank = rand.nextint(blank)
 if(hours>=3) {
 	if(hours<=5) {
+		//to add two strings put "blank" "+(a+b));
 		JOptionPane.showMessageDialog(null, "Are you genji and or naruto, because you are a code ninja");
 	}
 	
